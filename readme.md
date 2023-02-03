@@ -2,11 +2,11 @@
 
 ## Pokémon
 
-## Esta aplicación tendrá tres páginas:
+### Esta aplicación tendrá tres páginas:
 
-- Todos los pokémon
-- Mis pokémon
-- Detalle de pokémon
+- Todos los pokémon.
+- Mis pokémon.
+- Detalle de pokémon.
 
 El listado de todos los pokémon se alimentará de la PokéAPI, y deberá ir paginado.
 El listado incluirá el nombre del pokemon y su imagen y deberá ir acompañado de dos botones, para avanzar y retroceder de página.
