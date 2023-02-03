@@ -1,4 +1,3 @@
-
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
@@ -14,3 +13,4 @@ if [[ ! $local_branch_name =~ $valid_branch_regex ]]; then
 fi
 
 exit 0
+
