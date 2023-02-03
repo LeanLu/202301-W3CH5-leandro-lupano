@@ -2,7 +2,7 @@
 
 ## Pokémon
 
-## Esta aplicación tendrá tres páginas:
+### Esta aplicación tendrá tres páginas:
 
 - Todos los pokémon
 - Mis pokémon
