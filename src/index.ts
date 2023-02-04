@@ -1,20 +1,196 @@
 /* eslint-disable no-new */
-import { Card } from './components/card/card';
 import { Header } from './components/header/header';
 import { Menu } from './components/menu/menu';
+import { PokemonList } from './components/pokemonList/pokemonList';
 import './index.scss';
-import { Pokemon } from './models/pokemonStructure';
 
 new Header('.app');
 
 new Menu('.header');
 
 // Prueba con Pokemón creado en local:
-const pikachu = new Pokemon(
-  'Pikachu',
-  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
-  50,
-  100
-);
 
-new Card('.main', pikachu);
+const pokeList = [
+  {
+    id: '50',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '60',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+  {
+    id: '70',
+    name: 'Pikachu',
+    picture:
+      'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
+    weight: 50,
+    height: 100,
+    isFavorite: false,
+  },
+];
+
+new PokemonList('.main', pokeList);

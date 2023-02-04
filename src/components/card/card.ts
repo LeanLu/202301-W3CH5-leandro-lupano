@@ -17,15 +17,11 @@ export class Card extends Component {
 
   createTemplate() {
     return `
-      <section class="pokemons">
-        <ul class="pokemons-grid">
-          <li class="card">
-            <img class="pokemon-picture" src="${this.pokemon.picture}" alt="${this.pokemon.name}">
-            <span class="pokemon-name">${this.pokemon.name}</span>
-            <button class="button-add-favorite">⭐Add to favorites</button>
-          </li>
-        </ul>
-      </section>
+    <li class="card">
+      <img class="pokemon-picture" src="${this.pokemon.picture}" alt="${this.pokemon.name}">
+      <span class="pokemon-name">${this.pokemon.name}</span>
+      <button class="button-add-favorite">⭐Add to favorites</button>
+    </li>
     `;
   }
 }
