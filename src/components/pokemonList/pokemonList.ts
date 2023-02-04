@@ -3,6 +3,7 @@
 import { PokemonStructure } from '../../models/pokemonStructure';
 import { Card } from '../card/card';
 import { Component } from '../component/component';
+import './pokemonList.scss';
 
 export class PokemonList extends Component {
   constructor(public selector: string, public pokemonList: PokemonStructure[]) {
