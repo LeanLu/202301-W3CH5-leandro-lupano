@@ -22,3 +22,4 @@ BEM HTML semántico Testing
 ## Dudas:
 
 - Teniendo el sass fuera de su carpeta "sass" como habíamos hecho al principio, es necesario realizar "npm run sass", o hay que colocarlo en algún lugar específico, o cambiar el comando de ejecución en package.json.
+- Tampoco es necesario hacer el "npm start"?
