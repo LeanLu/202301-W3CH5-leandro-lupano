@@ -16,9 +16,9 @@ export type PokemonStructure = HasId & ProtoPokemonStructure;
 
 export class Pokemon implements PokemonStructure {
   public isFavorite: boolean;
+  public id!: string;
 
   constructor(
-    public id: string,
     public name: string,
     public picture: string,
     public weight: number,
