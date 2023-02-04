@@ -9,7 +9,7 @@ export class Header extends Component {
     this.render('afterbegin');
   }
 
-  createTemplate() {
+  private createTemplate() {
     return `
     <header class="header">
       <div class="header__logo">
