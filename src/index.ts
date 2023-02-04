@@ -2,6 +2,7 @@
 import { Header } from './components/header/header';
 import { Menu } from './components/menu/menu';
 import { PokemonList } from './components/pokemonList/pokemonList';
+import { PrevNextButton } from './components/prevNextButton/prevNextButton';
 import './index.scss';
 
 new Header('.app');
@@ -194,3 +195,5 @@ const pokeList = [
 ];
 
 new PokemonList('.main', pokeList);
+
+new PrevNextButton('.main');
