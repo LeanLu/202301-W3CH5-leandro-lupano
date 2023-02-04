@@ -9,6 +9,7 @@ new Header('.app');
 
 new Menu('.header');
 
+// Prueba con Pokemón creado en local:
 const pikachu = new Pokemon(
   'Pikachu',
   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
