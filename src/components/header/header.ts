@@ -16,6 +16,9 @@ export class Header extends Component {
         <img src="public/pokemon-logo.svg" alt="Pokemon Logo" name="logo">
       </div>
     </header>
+    <div class="subtitle">
+      <p>Poke List Web :</p>
+    </div>
     `;
   }
 }
