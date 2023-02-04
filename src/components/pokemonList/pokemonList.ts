@@ -12,7 +12,7 @@ export class PokemonList extends Component {
   }
 
   render(place: globalThis.InsertPosition) {
-    (document.querySelector('.main') as HTMLElement).innerHTML = '';
+    // TEMP (document.querySelector('.main') as HTMLElement).innerHTML = '';
     super.render(place);
     this.pokemonList.forEach((item) => {
       new Card('.pokemons-grid', item);
