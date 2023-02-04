@@ -18,3 +18,7 @@ El usuario debería poder eliminar pokémon de su listado local, y también modi
 En cualquiera de los listados, el usuario debería poder ir al detalle de un pokémon, donde se le mostrarán más datos. A esta página de detalle se llega pasando una id por la URL (la id del pokémon que queremos ver).
 
 BEM HTML semántico Testing
+
+## Dudas:
+
+- Teniendo el sass fuera de su carpeta "sass" como habíamos hecho al principio, es necesario realizar "npm run sass", o hay que colocarlo en algún lugar específico, o cambiar el comando de ejecución en package.json.
