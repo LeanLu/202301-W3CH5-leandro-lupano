@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Component } from '../component/component';
+import './header.scss';
 
 export class Header extends Component {
   constructor(public selector: string) {
