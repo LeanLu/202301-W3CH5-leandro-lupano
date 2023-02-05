@@ -6,9 +6,8 @@ import './card.scss';
 export class Card extends Component {
   constructor(public selector: string, public pokemon: PokemonStructure) {
     super();
-    this.pokemon = { ...pokemon };
     this.template = this.createTemplate();
-    this.render('afterbegin');
+    this.render('beforeend');
   }
 
   render(place: globalThis.InsertPosition) {
