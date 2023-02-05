@@ -7,22 +7,24 @@ describe('Given PokemonList Component', () => {
     document.body.innerHTML = '<slot></slot>';
     const pokeListMock = [
       {
-        id: '50',
+        id: 50,
         name: 'Pikachu',
         picture:
           'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
         weight: 50,
         height: 100,
         isFavorite: false,
+        url: '0',
       },
       {
-        id: '60',
+        id: 60,
         name: 'Pikachu',
         picture:
           'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
         weight: 50,
         height: 100,
         isFavorite: false,
+        url: '0',
       },
     ];
 

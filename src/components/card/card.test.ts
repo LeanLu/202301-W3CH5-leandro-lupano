@@ -7,7 +7,7 @@ describe('Given Card Component', () => {
   describe('When we instance the Card class', () => {
     document.body.innerHTML = '<slot></slot>';
     const pokemonMock = {
-      id: '999',
+      id: 999,
       name: 'Pikachu',
       picture:
         'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
