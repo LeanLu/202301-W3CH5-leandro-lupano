@@ -11,7 +11,6 @@ import { PokemonApiRepo } from './services/repository/pokemon.api.repo';
 
 new Header('.app');
 new Menu('.header');
-new PrevNextButton('.main');
+// new PrevNextButton('.main', new PokemonApiRepo());
 new Footer('.main');
-
 new PokemonList('.main', new PokemonApiRepo());
