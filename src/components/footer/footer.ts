@@ -13,7 +13,7 @@ export class Footer extends Component {
     return `
     <footer class="footer">
       <p>© Copyright</p>
-      <img src="public/pikachu-back.png" alt="Pikachu from back" width="100px">
+      <img src="/pikachu-back.png" alt="Pikachu from back" width="100px">
     </footer>
     `;
   }

@@ -13,11 +13,11 @@ export class Header extends Component {
     return `
     <header class="header">
       <div class="header__logo">
-        <img src="public/pokemon-logo.svg" alt="Pokemon Logo" name="logo">
+        <img src="/pokemon-logo.svg" alt="Pokemon Logo" name="logo">
       </div>
     </header>
     <div class="subtitle">
-      <p>Poke List Web :</p>
+      <p>Poke List :</p>
     </div>
     `;
   }
