@@ -1,7 +1,6 @@
 /* eslint-disable no-new */
 /* eslint-disable no-unused-vars */
-import { Pokemon, PokemonStructure } from '../../models/pokemonStructure';
-import { PokemonApiRepo } from '../../services/repository/pokemon.api.repo';
+import { PokemonStructure } from '../../models/pokemonStructure';
 import { Card } from '../card/card';
 import { Component } from '../component/component';
 import './pokemonList.scss';
@@ -9,7 +8,7 @@ import './pokemonList.scss';
 export class PokemonList extends Component {
   public pokemons: PokemonStructure[];
 
-  constructor(public selector: string, public repo: PokemonApiRepo) {
+  constructor(public selector: string, public repo: any) {
     super();
     this.pokemons = [];
     this.template = this.createTemplate();
