@@ -1,4 +1,5 @@
 /* eslint-disable no-new */
+import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 import { Menu } from './components/menu/menu';
 import { PokemonList } from './components/pokemonList/pokemonList';
@@ -195,5 +196,5 @@ const pokeList = [
 ];
 
 new PokemonList('.main', pokeList);
-
 new PrevNextButton('.main');
+new Footer('.main');
