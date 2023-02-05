@@ -58,6 +58,7 @@ export class PokemonApiRepo {
 
     const pokemonsNext = await fetch(newUrl);
     const pokemonDataNext = await pokemonsNext.json();
+    console.log(pokemonDataNext);
 
     let pokemonDataArray: any[] = Object.values(pokemonDataNext);
     pokemonDataArray = pokemonDataArray.slice(3);
