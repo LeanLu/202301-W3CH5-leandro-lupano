@@ -11,9 +11,9 @@ export class PrevNextButton extends Component {
 
   private createTemplate() {
     return `
-    <div class="next-previous-button">
-      <img src="public/prevButton.png" alt="Previous button">
-      <img src="public/nextButton.png" alt="Next button">
+    <div class="next-previous-button" title="div-buttons">
+      <img src="/prevButton.png" alt="Previous button" name="prev button">
+      <img src="/nextButton.png" alt="Next button" name="next button">
     </div>
     `;
   }
